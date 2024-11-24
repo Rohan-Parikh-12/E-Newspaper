@@ -1,0 +1,44 @@
+body
+{
+	background: url('istockphoto-1068438600-640x640.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.center
+{
+	text-align: center; 
+}
+
+
+.container
+{
+	max-width:800px;
+}
+table, th, td
+{
+	
+	table-layout:fixed;
+	text-align:center;
+	font-size:15px;
+	border-collapse:collapse;
+	border:1px solid skyblue;
+}
+tr, th, td
+{
+	padding:2px;
+}
+th
+{
+	background:red;
+	color:white;
+}
+td
+{
+	background:white;
+	
+}
+td:hover
+{
+	background:orange;
+}
+

@@ -1,0 +1,34 @@
+<html>
+<head>
+	<link rel="stylesheet" href="image.css">
+</head>
+<body>
+
+<div class="zoom">
+    <img src="https://i.postimg.cc/cCkd6pXx/2.jpg">
+   </div>
+<div class="main-text">
+       <h2>
+Main Text</h2>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis doloremque, placeat tenetur minus, aspernatur dolor dolorum porro cum earum saepe aperiam suscipit ipsam. Explicabo blanditiis rem qui quaerat earum totam iusto necessitatibus, consectetur, alias labore, aliquid id dolorem eveniet officia nihil debitis fugit. Quisquam laborum nam libero ea? Deleniti, accusantium!</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis doloremque, placeat tenetur minus, aspernatur dolor dolorum porro cum earum saepe aperiam suscipit ipsam. Explicabo blanditiis rem qui quaerat earum totam iusto necessitatibus, consectetur, alias labore, aliquid id dolorem eveniet officia nihil debitis fugit. Quisquam laborum nam libero ea? Deleniti, accusantium!</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis doloremque, placeat tenetur minus, aspernatur dolor dolorum porro cum earum saepe aperiam suscipit ipsam. Explicabo blanditiis rem qui quaerat earum totam iusto necessitatibus, consectetur, alias labore, aliquid id dolorem eveniet officia nihil debitis fugit. Quisquam laborum nam libero ea? Deleniti, accusantium!</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis doloremque, placeat tenetur minus, aspernatur dolor dolorum porro cum earum saepe aperiam suscipit ipsam. Explicabo blanditiis rem qui quaerat earum totam iusto necessitatibus, consectetur, alias labore, aliquid id dolorem eveniet officia nihil debitis fugit. Quisquam laborum nam libero ea? Deleniti, accusantium!</p>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        $(".zoom img").css({
+            width: (100 + scroll/5) + "%"
+        })
+    })
+</script>
+
+</body>
+</html>
